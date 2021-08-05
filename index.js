@@ -5,7 +5,7 @@ module.exports = {
       "es6": true,
       "node": true,
   },
-  "extends": ["eslint:recommended", "airbnb", "plugin:prettier/recommended", "prettier/react"],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended", "prettier"],
   "globals": {
       "Atomics": "readonly",
       "SharedArrayBuffer": "readonly"
