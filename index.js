@@ -35,10 +35,6 @@ module.exports = {
     'prefer-destructuring': 'off',
     'import/no-dynamic-require': 'off',
     'global-require': 'off',
-    'import/no-extraneous-dependencies': [
-      'error',
-      { devDependencies: ['**/*.stories.js', '**/*.test.js', '**/demo/**'] },
-    ],
     'semi': ['error', 'never'],
   }
 }

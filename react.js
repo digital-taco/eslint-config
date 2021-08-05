@@ -12,12 +12,6 @@ module.exports = {
   },
   "rules": {
     'jsx-a11y/label-has-for': 0, // this is deprecated in future versions so disable now
-    'jsx-a11y/label-has-associated-control': [
-      2,
-      {
-        assert: 'either', // fs-styles does not support nesting currently
-      },
-    ],
     'react/jsx-filename-extension': 'never',
     'react/jsx-wrap-multilines': 2,
     'react/jsx-props-no-spreading': 0,
