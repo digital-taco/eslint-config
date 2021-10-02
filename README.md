@@ -19,9 +19,22 @@ Third, put this in your .eslintrc.js:
 
 ```
 module.exports = {
-  extends: ['@digital-taco/eslint-config/react', '@digital-taco/eslint-config/typescript'],
+  extends: ['@digital-taco/eslint-config'],
 }
 ```
+
+If you are using React, replace `extends` with this:
+
+```
+['@digital-taco/eslint-config/react']
+```
+
+If you are using TypeScript, add `@digital-taco/eslint-config/typescript` to `extends`:
+
+```
+['@digital-taco/eslint-config/react', '@digital-taco/eslint-config/typescript']
+```
+
 
 # Developing this package
 
