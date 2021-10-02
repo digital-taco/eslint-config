@@ -8,12 +8,14 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       extends: ['plugin:@typescript-eslint/recommended'],
       rules: {
-        '@typescript-eslint/no-use-before-define': 'off',
         '@typescript-eslint/explicit-function-return-type': ['error', { allowExpressions: true }],
         '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
 
         // TS complains about using the .ts/.tsx extensions in the import statement. so turning this rule off for TS
         'import/extensions': 'off',
+
+        'no-use-before-define': 'off',
+        '@typescript-eslint/no-use-before-define': ['error'],
       },
     },
   ],
